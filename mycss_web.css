@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	background-color: #d8d8d8;
+	font-family: aktiv-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	}
+@media print{
+	body {
+    background-color: white;
+	color: black;
+	
+  }
+}
+.video-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	padding-top: 30px; 
+	height: 0; 
+	overflow: hidden; 
+}
+
+h1 {font-family: aktiv-grotesk, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  text-align: left;
+  color: red;
+  font-size: 40px;
+}
+
+h2 {font-family: aktiv-grotesk, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+}
+
+p {
+	font-size: 14px;
+}
+h3{
+	font-style: bold;
+	font-size: 22px;
+	font-family: aktiv-grotesk, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+div {
+	text-align: left;
+}
+
+nav {
+	font-family: aktiv-grotesk, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+}
+a:link {
+	font-family: aktiv-grotesk, sans-serif;
+	font-weight: 200;
+	font-style: bold;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,101,100,1.00);
+}
+a:visited {
+  text-decoration: none;
+	color: rgba(129,18,58,1.00);
+}
+
+.bold{
+	font-weight: bold;
+}
+#top{
+	background-color: rgba(0,101,100,1.00);
+}
